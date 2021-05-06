@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html,body,h1,h2,h3,p,div,ul,li,table,th,td,form,
+header,main,nav,footer{
+	margin : 0;
+	padding : 0;
+}
+
+header,main,nav,footer{
+	display : block;
+}
+
+li{
+	list-style-type : none;
+}
+
+a{
+	color: #000;
+}

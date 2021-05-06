@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*---------header start---- */
+
+.header {
+background-color: rgb(218,230,255);
+width: 100%;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav li {
+	line-height: 5;
+
+}
+
+.nav li a{
+float: left;
+text-decoration: none;
+color: #000;
+opacity: 0.5;
+}
+
+.nav li a:hover{
+opacity: 1;
+}
+/* ------ header end --- */
+
+/* ------ main start -------------- */
+main {
+padding-top: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container {
+	border: 1px solid #000;
+}
+
+.container h1,h2,h3,p {
+	line-height: 1.8;
+}
+
+.container .last-child {
+	margin-bottom: 300px;
+}
+
+
+/* ------ main end -------------- */

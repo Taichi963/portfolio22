@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+html,body,h1,h2,h3,p,div,ul,li,table,th,td,form,header,main,nav,footer{
+	margin : 0;
+	padding : 0;
+	list-style: none;
+}
+
+header,main,nav,footer{
+	display: block;
+}
+
+nav li{
+	list-style : none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*---------header start---- */
+.header {
+background-color: rgb(218,230,255);
+width: 100%;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.nav li {
+	line-height: 5;
+	font-size: 16px;
+}
+
+.nav li a{
+float: left;
+text-decoration: none;
+color: #000;
+opacity: 0.5;
+}
+
+.nav li a:hover{
+opacity: 1;
+}
+/* -------  header end---- */
+/* -------- main -----------*/
+.rank h1 {
+	color: red;
+}
+
+.rank{
+	padding: 150px 20px 100px 80px;
+}
+
+.container,.heading img,p{
+	text-align: center;
+}
+
+.popup:focus, .popup:active {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: auto;
+    z-index: 100;
+    background: #fff;
+    padding: 20px;
+    outline: 1px solid #aaa;
+    max-width:30vw;
+}
+.popup {
+    height: 96px;
+    width:auto;
+    cursor: pointer;
+    display: inline;
+}
+.rank h1 {
+	border-bottom: 1px solid #ccc;
+	margin: 60px 60px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.rank h4 {
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.rankining1 {
+	color: red;
+}
+
+.heading{
+	padding: 100px 0 20px 10px;
+}
+
+
+.text p{
+font-size: 20px;
+color: red;
+padding-bottom: 25px;
+}
+
+.text ul li{
+	border: 1px solid #000;
+	text-align: left;
+}
+
+.red{
+	color: red;
+}
+/*------------main end-------------*/
+/* ---------footer start------ */
+
+footer {
+	background-color: #ccc;
+}
